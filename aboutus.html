@@ -5,37 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="aboutus.css">
+     <!-- link css -->
+     <link rel="stylesheet" href="Products.css">
+     <!-- link bootstrap from newest version read full documentayion scroll you will find both css and js-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!-- link js -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+     <!-- for icon use bootstrap cdn copy the css link -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+ 
+
+    
 </head>
 <body>
+   <!-- navbar -->
+
+      <!-- use the section tag -->
+      <section id="nav-bar">
+        <!-- inside this section tag add navigation and menu-just open bootstrap -->
+        <!-- in bootstrap go to components and then see the
+         navbar section see nav you can see a navbar with menu copy the code and paste down -->
+  
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     <div class="container-fluid">
+       <!-- the logo of company inside anchor tag and a img tag with the soslrce -->
+       <a class="navbar-brand" href="#"><img src="he.png" alt=""></a>
+       <button id="menu" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+         <!-- EDITED AND KEPT ml-auto inside class of ul (note ul is umbrella for li)
+                  so that all the menu alligned right side-->
+                  <!-- note ml-auto is not working so along with it
+                   to work add (justify-content-end) to the div class-->
+         <ul class="navbar-nav ml-auto-right">
+
+           <li class="nav-item">
+            <!-- Home -->
+            <a class="nav-link" href="home.html">HOME</a>
+            </li>
+            <li class="nav-item">
+
+             <!-- Product -->
+             <a class="nav-link" aria-current="page" href="Products.html">PRODUCTS</a>
+           </li>
+           <li class="nav-item">
+
+
+             <!-- Services -->
+             <!-- <a class="nav-link" href="#">SERVICES</a>
+           </li>
+           <li class="nav-item"> -->
+
+
+             <!-- ABOUT US -->
+             <a class="active" href="aboutus.html">ABOUT US</a>
+           </li>
+           <li class="nav-item">
+
+
+             <!-- offers -->
+             <a class="nav-link" href="offers.html">OFFERS</a>
+           </li>
+           <!--  -->
+
+           
+       
+          
+           <!--  -->
+         </ul>
+       </div>
+     </div>
+   </nav>
+   <!--  -->
+  </section>
+  <p></p>
+ <!-- navbar -->
 
     <!--  -->
 
-    <div class="container">
-
-        <div class="topnav">
-            <a href="#Products">Products</a>
-            <a href="landing.html">Home</a>
-            
-            <a class="active" href="aboutus.html">About Us</a>
-            <a href="offers.html">Offers</a>
-        
-            
-        </div>
-    </div>
+    
     <!--  -->
 
     <div class="about-section">
         <h1>Hyderabad Electronics,Electricals & Homeneeds</h1>
-        <p>we are your one-stop destination for all your electronics retail, repair, and home needs. Located in the heart of gandhichowk,adilabad, Telangana, we pride ourselves on offering a wide range of high-quality electronic products, expert repair services, and essential home items to cater to your everyday needs.
+        <p id="weare">we are your one-stop destination for all your electronics retail, repair, and home needs. Located in the heart of gandhichowk,adilabad, Telangana, we pride ourselves on offering a wide range of high-quality electronic products, expert repair services, and essential home items to cater to your everyday needs.
         </p>
-        <p>......</p>
+        <p id="pp">......</p>
       </div>
       
-      <h2 style="text-align:center">Our Staff</h2>
+      <h2  id="ourstaff" style="text-align:center" >Our Staff</h2>
       <div class="row">
         <div class="column">
           <div class="card">
-            <img src="MAnzoor.jpg" alt="" style="width:100%">
+            <img src="manzoorahmed.jpg" alt="" style="width:100%">
             <div class="container">
               <h2>Manzoor Ahmed</h2>
               <p class="title">Owner Of Shop</p>

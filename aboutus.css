@@ -101,7 +101,7 @@ body {
   .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
+    background-image: linear-gradient(to right,#000000,#000000,#ffffff);
     color: white;
   }
   
@@ -140,4 +140,15 @@ body {
       width: 100%;
       display: block;
     }
+  }
+
+  /* text colour */
+  #weare{
+    color: white;
+  }
+  #pp{
+    color: white;
+  }
+  #ourstaff{
+    color: white;
   }
